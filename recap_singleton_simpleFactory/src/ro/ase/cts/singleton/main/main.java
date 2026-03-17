@@ -6,8 +6,11 @@ public class main {
     public static void main(String[] args) {
 
         Logger instance= Logger.getInstance("Interfata", "afisare");
-        instance.afiseazaLogger("Fisierul nu a fost corect");
-        instance.afiseazaLogger("eroare");
+        instance.afiseazaLogger("eroare1");
+
+        Logger instance2= Logger.getInstance("Mama", "tata");
+        instance2.afiseazaLogger("eroare");
+
 
     }
 }

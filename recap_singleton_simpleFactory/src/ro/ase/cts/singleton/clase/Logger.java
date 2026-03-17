@@ -6,6 +6,14 @@ public class Logger {
     protected String categorie;
     private static Logger instantaSingleton=null; //O variabilă statică privată: Aceasta va păstra singura instanță a clasei.
 
+    public void setSender(String sender) {
+        this.sender = sender;
+    }
+
+    public void setCategorie(String categorie) {
+        this.categorie = categorie;
+    }
+
     //Constructor privat: Împiedici alte clase să creeze obiecte noi folosind new
     private Logger( String sender, String categorie) {
         this.cod = 0;
@@ -13,7 +21,7 @@ public class Logger {
         this.categorie = categorie;
     }
      public void afiseazaLogger(String text){
-        System.out.println("Log cu codul "+ cod + " efectuat de utilizatorul "+ sender + " a constat in "+ text + " din categoria "+ categorie);
+        System.out.println("Log cu codul "+ cod + " efectuat de utilizatorul "+ sender + " din categoria "+ categorie+ " a constat in "+ text );
         this.cod++;
      }
 
