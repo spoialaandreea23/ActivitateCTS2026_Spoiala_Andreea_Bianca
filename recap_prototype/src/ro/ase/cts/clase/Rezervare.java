@@ -1,6 +1,6 @@
 package ro.ase.cts.clase;
 
-public class Rezervare implements IRezervare{
+public class Rezervare implements IRezervare {
     private String numeClient;
     private int ora;
     private int nrPersoane;
@@ -9,33 +9,29 @@ public class Rezervare implements IRezervare{
     public Rezervare(String numeClient, int ora, int nrPersoane, String nrCard) {
         this.numeClient = numeClient;
         if(ora>=11 && ora<=22){
-            this.ora=ora;
-        }
+        this.ora = ora;}
         else{
-            this.ora=11;
-        }
-
+            this.ora=11;}
         this.nrPersoane = nrPersoane;
-        if(nrCard.length()==16) {
-            this.nrCard = nrCard;
-        }
-        else{
+        if(nrCard.length()==16)
+        this.nrCard = nrCard;
+        else
             this.nrCard="0000000000000000";
-        }
     }
 
-    private Rezervare() {
+    private Rezervare(){
+
     }
+
 
     @Override
-    public Rezervare copiaza() {
+    public IRezervare copiaza() {
         Rezervare rezervare=new Rezervare();
-        rezervare.numeClient=this.numeClient;
+        rezervare.nrCard=this.nrCard;
         rezervare.ora=this.ora;
         rezervare.nrPersoane=this.nrPersoane;
-        rezervare.nrCard=this.nrCard;
-
-        return rezervare; //Liskov...
+        rezervare.numeClient=this.numeClient;
+        return rezervare;
     }
 
     public void setNumeClient(String numeClient) {
@@ -54,8 +50,6 @@ public class Rezervare implements IRezervare{
         this.nrCard = nrCard;
     }
 
-
-
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Rezervare{");
@@ -66,7 +60,4 @@ public class Rezervare implements IRezervare{
         sb.append('}');
         return sb.toString();
     }
-
-
-
 }

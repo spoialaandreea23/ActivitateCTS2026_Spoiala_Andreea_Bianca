@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/recap_builder/recap_builder.iml" filepath="$PROJECT_DIR$/recap_builder/recap_builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recap_prototype/recap_prototype.iml" filepath="$PROJECT_DIR$/recap_prototype/recap_prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/recap_singleton_simpleFactory/recap_singleton_simpleFactory.iml" filepath="$PROJECT_DIR$/recap_singleton_simpleFactory/recap_singleton_simpleFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar 4/seminar 4.iml" filepath="$PROJECT_DIR$/seminar 4/seminar 4.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar1 (1).iml" filepath="$PROJECT_DIR$/seminar1 (1).iml" />
