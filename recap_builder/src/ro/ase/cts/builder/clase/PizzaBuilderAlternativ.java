@@ -8,11 +8,13 @@ public class PizzaBuilderAlternativ implements PizzaBuilderAbstractAlt {
 
     // Initializam setarile implicite in builder
 
-    public PizzaBuilderAlternativ() {
-        this.areCiuperci = false;
-        this.areMasline = false;
-        this.areSosDulce = false;
-    }
+//    public PizzaBuilderAlternativ() {
+//        this.areCiuperci = false;
+//        this.areMasline = false;
+//        this.areSosDulce = false;
+//    }
+
+
 
     // Metode fluide care seteaza variabilele LOCALE ale builder-ului
     //la fel ca la cel normal, doar ca are this.

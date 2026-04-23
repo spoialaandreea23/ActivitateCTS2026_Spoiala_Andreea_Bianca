@@ -15,4 +15,6 @@ public class Asistent implements PersonalSpital{
         sb.append("Asistentul ").append(this.nume).append(" este pe sectia ").append(this.sectie);
         System.out.println(sb.toString());
     }
+
+
 }

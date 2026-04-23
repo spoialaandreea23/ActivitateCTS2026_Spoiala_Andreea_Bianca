@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Adapter/Adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/recap_builder/recap_builder.iml" filepath="$PROJECT_DIR$/recap_builder/recap_builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/recap_prototype/recap_prototype.iml" filepath="$PROJECT_DIR$/recap_prototype/recap_prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/recap_singleton_simpleFactory/recap_singleton_simpleFactory.iml" filepath="$PROJECT_DIR$/recap_singleton_simpleFactory/recap_singleton_simpleFactory.iml" />
@@ -10,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/seminar5/seminar5.iml" filepath="$PROJECT_DIR$/seminar5/seminar5.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar6/seminar6_Factory.iml" filepath="$PROJECT_DIR$/seminar6/seminar6_Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar6_Prototype/seminar6_Prototype.iml" filepath="$PROJECT_DIR$/seminar6_Prototype/seminar6_Prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar9/seminar9.iml" filepath="$PROJECT_DIR$/seminar9/seminar9.iml" />
     </modules>
   </component>
 </project>
