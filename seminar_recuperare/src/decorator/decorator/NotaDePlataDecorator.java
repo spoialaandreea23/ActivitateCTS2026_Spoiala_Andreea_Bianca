@@ -5,6 +5,11 @@ import decorator.clase.NotaDePlataAbstract;
 public abstract class NotaDePlataDecorator implements NotaDePlataAbstract {
     private NotaDePlataAbstract notaDePlata;
 
+//    public NotaDePlataDecorator(NotaDePlataAbstract notaDePlata) {
+//        this.notaDePlata = notaDePlata;
+//    }
+
+
     public NotaDePlataDecorator(NotaDePlataAbstract notaDePlata) {
         this.notaDePlata = notaDePlata;
     }
