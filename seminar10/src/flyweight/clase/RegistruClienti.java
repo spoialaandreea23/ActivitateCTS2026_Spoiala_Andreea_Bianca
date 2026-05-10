@@ -6,8 +6,13 @@ import java.util.Map;
 public class RegistruClienti {
     private Map<String,ClientAbstract> clienti=new HashMap<>();
 
+//    public RegistruClienti() {
+//        this.clienti=new HashMap<>();
+//    }
+
+
     public RegistruClienti() {
-        this.clienti=new HashMap<>();
+        this.clienti = new HashMap<>();
     }
 
     public ClientAbstract getClient(String nume, String telefon, String adresaEmail){
