@@ -1,0 +1,25 @@
+package ChainOfResponsability.Clase;
+
+public abstract class CalatorieHandler {
+    protected CalatorieHandler succesor;
+
+//    public CalatorieHandler(){
+//        this.succesor=null;
+//    }
+
+
+//    public CalatorieHandler() {
+//        this.succesor = null;
+//    }
+
+//    public void setSuccesor(CalatorieHandler succesor) {
+//        this.succesor = succesor;
+//    }
+
+
+    public void setSuccesor(CalatorieHandler succesor) {
+        this.succesor = succesor;
+    }
+
+    public abstract String recomandaMijlocDeTransport(double distanta);
+}
